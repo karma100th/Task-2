@@ -8,13 +8,13 @@ public class Task2 {
         int counter = 2;
         BigInteger sumNumber = BigInteger.ZERO;
         BigInteger helperValue1;
-        BigInteger helperValue12 = new BigInteger("0");
+        BigInteger helperValue2 = new BigInteger("0");
         BigInteger fibValue = new BigInteger("1");
 
         while (counter < index) {
             helperValue1 = fibValue;
-            fibValue = fibValue.add(helperValue12);
-            helperValue12 = helperValue1;
+            fibValue = fibValue.add(helperValue2);
+            helperValue2 = helperValue1;
             System.out.print(fibValue + "\t");
             counter++;
             if (fibValue.remainder(BigInteger.valueOf(2)).compareTo(BigInteger.ZERO) == 0) {
