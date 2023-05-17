@@ -2,7 +2,11 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-
+../.idea/.gitignore
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+TaskFibonachi.iml
 ### Eclipse ###
 .apt_generated
 .classpath
